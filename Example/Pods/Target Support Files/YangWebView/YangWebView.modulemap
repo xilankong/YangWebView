@@ -1,0 +1,6 @@
+framework module YangWebView {
+  umbrella header "YangWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}

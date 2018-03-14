@@ -1,0 +1,33 @@
+{
+  "name": "YangWebView",
+  "version": "0.1.0",
+  "summary": "A short description of YangWebView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xilankong/YangWebView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xilankong": "young.huang"
+  },
+  "source": {
+    "git": "https://github.com/xilankong/YangWebView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YangWebView/Classes/**/*",
+  "xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) SD_WEBP=1"
+  },
+  "dependencies": {
+    "SDWebImage/WebP": [
+
+    ],
+    "libwebp": [
+
+    ]
+  }
+}

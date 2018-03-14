@@ -1,0 +1,57 @@
+PODS:
+  - libwebp (0.6.0):
+    - libwebp/core (= 0.6.0)
+    - libwebp/dec (= 0.6.0)
+    - libwebp/demux (= 0.6.0)
+    - libwebp/dsp (= 0.6.0)
+    - libwebp/enc (= 0.6.0)
+    - libwebp/mux (= 0.6.0)
+    - libwebp/utils (= 0.6.0)
+    - libwebp/webp (= 0.6.0)
+  - libwebp/core (0.6.0):
+    - libwebp/webp
+  - libwebp/dec (0.6.0):
+    - libwebp/core
+  - libwebp/demux (0.6.0):
+    - libwebp/core
+  - libwebp/dsp (0.6.0):
+    - libwebp/core
+  - libwebp/enc (0.6.0):
+    - libwebp/core
+  - libwebp/mux (0.6.0):
+    - libwebp/core
+  - libwebp/utils (0.6.0):
+    - libwebp/core
+  - libwebp/webp (0.6.0)
+  - SDWebImage/Core (4.3.1)
+  - SDWebImage/WebP (4.3.1):
+    - libwebp (~> 0.5)
+    - SDWebImage/Core
+  - YangWebView (0.1.0):
+    - libwebp
+    - SDWebImage/WebP
+
+DEPENDENCIES:
+  - libwebp (from `https://github.com/xilankong/libwebp.git`)
+  - SDWebImage/WebP
+  - YangWebView (from `../`)
+
+EXTERNAL SOURCES:
+  libwebp:
+    :git: https://github.com/xilankong/libwebp.git
+  YangWebView:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  libwebp:
+    :commit: 8872baceae7fdf07e8a8a06feff2def5b1416548
+    :git: https://github.com/xilankong/libwebp.git
+
+SPEC CHECKSUMS:
+  libwebp: eebb307cbd93b2d9c17efa0c83c239f5922ab9b4
+  SDWebImage: 09808bac78357b39f8db4ea360c7b5534d785ef4
+  YangWebView: 3aeaca269a4175015d0305767475f2a5eba25299
+
+PODFILE CHECKSUM: bc796d3474dca3567ce36759b8410001ac0a313f
+
+COCOAPODS: 1.2.1

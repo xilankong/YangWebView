@@ -1,8 +1,11 @@
 use_frameworks!
 
 target 'YangWebView_Example' do
+    
+  pod 'libwebp', :git => 'https://github.com/xilankong/libwebp.git'
+  pod 'SDWebImage/WebP'
+    
   pod 'YangWebView', :path => '../'
-
   target 'YangWebView_Tests' do
     inherit! :search_paths
 

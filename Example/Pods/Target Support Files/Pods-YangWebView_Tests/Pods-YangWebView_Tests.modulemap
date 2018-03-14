@@ -1,0 +1,6 @@
+framework module Pods_YangWebView_Tests {
+  umbrella header "Pods-YangWebView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

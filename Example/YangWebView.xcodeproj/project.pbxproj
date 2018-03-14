@@ -22,6 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6F7839132057E818000F7CD1 /* BAWebpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7839122057E817000F7CD1 /* BAWebpController.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14C23B01F253229DDA372C8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		14C23B01F253229DDA372C8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4E5A6E845D45ECC4FEB1341F /* Pods-YangWebView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangWebView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangWebView_Tests/Pods-YangWebView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58EC888769E151168DF71C6B /* Pods-YangWebView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangWebView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YangWebView_Tests/Pods-YangWebView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YangWebView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YangWebView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +61,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		64C378BC091CB52501A15414 /* Pods_YangWebView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangWebView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7839112057E817000F7CD1 /* BAWebpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAWebpController.h; sourceTree = "<group>"; };
+		6F7839122057E817000F7CD1 /* BAWebpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAWebpController.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E0D5289454527A30B2AE219 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7E0D5289454527A30B2AE219 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		81B80D3C806CA31C2A7A4D50 /* Pods_YangWebView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangWebView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A30221531730F7EEDA6E85DA /* Pods-YangWebView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangWebView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YangWebView_Example/Pods-YangWebView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B51C063AFABDEE648AFE4DB7 /* Pods-YangWebView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangWebView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangWebView_Example/Pods-YangWebView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BC368D287CA01DA9936E0EA9 /* YangWebView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YangWebView.podspec; path = ../YangWebView.podspec; sourceTree = "<group>"; };
+		BC368D287CA01DA9936E0EA9 /* YangWebView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YangWebView.podspec; path = ../YangWebView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YangViewController.h */,
 				6003F5A6195388D20070C39A /* YangViewController.m */,
+				6F7839112057E817000F7CD1 /* BAWebpController.h */,
+				6F7839122057E817000F7CD1 /* BAWebpController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -396,6 +401,7 @@
 			files = (
 				6003F59E195388D20070C39A /* YangAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YangViewController.m in Sources */,
+				6F7839132057E818000F7CD1 /* BAWebpController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
